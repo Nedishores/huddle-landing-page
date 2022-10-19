@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* @media screen and (max-width:1440px) { */
+    .top{
+        background-image: url(bg-hero-desktop.svg);
+        height: 100vh;
+        background-color: hsl(193, 100%, 96%);
+    }
+    .head{
+        padding-top: 20px;
+    }
+    .logo{
+        width: 130px;
+        margin-left: 50px;
+    }
+    .white{
+        background-color: white;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+        float: right;
+        margin-right: 50px;
+    }
+    .second{
+        display: flex;
+        margin-top: 50px;
+    }
+    .title{
+        margin-left: 50px;
+        margin-top: 100px;
+        margin-right: 30px;
+    }
+    h2{
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
+    .pink{
+        background-color: hsl(322, 100%, 66%);
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        margin-top: 20px;
+    }
+    .diagramm{
+        width: 700px;
+        margin-right: 60px;
+    }
+    .box{
+        margin-top: 40px;
+        margin-left: 120px;
+    }
+    .box1{
+        
+        display: flex;
+        border-radius: 10px;
+        background-image: white;
+        width: 92%;
+        height: 50vh;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+    }
+    .grow{
+        width: 300px;
+        height: 40vh;
+        margin-left: 270px;
+    }
+    .groww{
+        width: 300px;
+        height: 40vh;
+    }
+    h3{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+    .subhead{
+        padding-top: 50px;
+        width: 47%;
+        padding-left: 42px;
+    }
+    .subheadd{
+        padding-top: 50px;
+        width: 47%;
+        margin-left: 250px;
+    }
+    .but{
+        background-color: hsl(322, 100%, 66%);
+        width: 250px;
+        height: 44px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        margin-top: 20px;
+    }
+    .box2{
+        padding-top: 40px;
+        height: 30vh;
+        width: 40%;
+        margin-top: 40px;
+        text-align: center;
+        background-color: white;
+        box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.6);
+        margin-left: 390px;
+        border-radius: 10px;
+        position:absolute;
+    
+    }
+    .foot{
+        background-color: hsl(192, 100%, 9%);
+        height: 60vh;
+        margin-top: 200px;
+    }
+    .class{
+        display:inline;
+    }
+    h1{
+        color: white;
+    }
+    .logoo{
+        width: 130px;
+        color: white;
+    }
+    .para{
+        color: white;
+        font-size: 15px;
+        padding-left: 40px;
+        margin-top: -20px;
+    }
+    .badge{
+        margin-top: 20px;
+    }
+    .section{
+        width: 300px;
+        margin-left: 40px;
+        padding-top: 90px;
+    }
+    .part1{
+        margin-left: 500px;
+        margin-top: -150px;
+    }
+    .nav1 ul li{
+        list-style: none;
+        padding: 10px;
+    }
+    .nav1 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .part2{
+        margin-left: 700px;
+        margin-top: -110px;
+    }
+    .nav2 ul li{
+        list-style: none;
+        padding: 10px;
+    }
+    .nav2 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    footer{
+        color: white;
+        margin-left: 900px;
+        margin-top: 40px;
+    }    
+/* } */
+
+@media screen and (max-width: 375px){
+    .top{
+        background-image: url(bg-hero-desktop.svg);
+        height: 130vh;
+        background-color: hsl(193, 100%, 96%);
+    }
+    .head{
+        padding-top: 20px;
+    }
+    .logo{
+        width: 90px;
+        margin-left: 30px;
+    }
+    .white{
+        background-color: white;
+        width: 140px;
+        height: 25px;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+        float: right;
+        margin-right: 30px;
+    }
+    .second{
+        /* display: flex; */
+        margin-top: 40px;
+        text-align: center;
+    }
+    .title{
+        margin-left: 60px;
+        margin-top: 50px;
+        /* margin-right: 30px; */
+    }
+    h2{
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .pink{
+        background-color: hsl(322, 100%, 66%);
+        width: 260px;
+        height: 42px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        margin-top: 35px;
+        /* margin-left: 40px; */
+    }
+    .diagramm{
+        width: 300px;
+        margin-left: -320px;
+        margin-top: 380px;
+    }
+    .box{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .box1{
+        
+        display: flex;
+        border-radius: 10px;
+        background-image: rgba(207, 202, 202, 0.596);
+        width: 320px ;
+        height: 80vh;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+    }
+    .grow{
+        width: 270px;
+        height: 35vh;
+        margin-left: -300px;
+        padding-top: 20px;
+        
+    }
+    .groww{
+        width: 270px;
+        height: 35vh;
+    }
+    h3{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        padding-top: 60px;
+        margin-left: 35px;
+        margin-bottom: 30px;
+        width: 200px;
+    }
+    .subhead{
+        padding-top: 150px;
+        width: 320px;
+    }
+    p.paragg{
+        font-size: 14px;
+        color: black;
+        width: 280px;
+        margin-left: -50px;
+        text-align: center;
+        
+    }
+    .subheadd{
+        padding-top: 140px;
+        width: 47%;
+        margin-left: -240px;
+    }
+    .but{
+        background-color: hsl(322, 100%, 66%);
+        width: 250px;
+        height: 44px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        margin-top: -20px;
+    }
+    .small{
+        margin-top: -90px;
+        width: 300px;
+    }
+    h3.headd{
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 300px;
+
+    }
+    .box2{
+        height: 30vh;
+        width: 320px;
+        text-align: center;
+        background-color: rgba(245, 245, 245);
+        box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.6);
+        margin-left: 20px;
+        border-radius: 10px;
+        position:absolute;
+    
+    }
+    .foot{
+        background-color: hsl(192, 100%, 9%);
+        height: 130vh;
+        margin-top: 200px;
+    }
+    .class{
+        display:inline;
+    }
+    h1{
+        color: white;
+    }
+    .logoo{
+        width: 130px;
+        color: white;
+    }
+    .para{
+        color: white;
+        font-size: 14px;
+        padding-left: 40px;
+        margin-top: -20px;
+        text-align: left;
+    }
+    .badge{
+        margin-top: 20px;
+        width: 10px;
+    }
+    .section{
+        width: 300px;
+        margin-left: 40px;
+        padding-top: 90px;
+    }
+    .part1{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .nav1 ul li{
+        list-style: none;
+        padding: 10px;
+    }
+    .nav1 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .part2{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .nav2 ul li{
+        list-style: none;
+        padding: 10px;
+    }
+    .nav2 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    footer{
+        color: white;
+        margin-left: 20px;
+        margin-top: 50px;
+    }    
+}
